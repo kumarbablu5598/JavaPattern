@@ -4,12 +4,14 @@ Take Integer N as input and print the following pattern.
 I/p  N=5
 
 O/P 
-    
+
                         *		
  	 	 	 	 	*		*		
  	 	 	 	*		*		*		
  	 	 	*		*		*		*		
  	 	*		*		*		*		*	
+
+    
 I/p N =7 
 O/p                            
        
