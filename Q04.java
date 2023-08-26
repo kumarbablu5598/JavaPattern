@@ -5,23 +5,23 @@ I/p  N=5
 
 O/P
 
-      *
-     **
-    ***
-   ****
-  *****
+        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
 
 I/P N=7
     
 O/p   
 
-      *
-     **
-    ***
-   ****
-  *****
- ******
-*******   
+            * 
+          * * 
+        * * * 
+      * * * * 
+    * * * * * 
+  * * * * * * 
+* * * * * * * 
 
 // java code
 
@@ -41,8 +41,8 @@ public class Solution
             for(int j=0;j<n;j++)
             {  
                 if(j>=n-1-i)
-                System.out.print("*");
-                else System.out.print(" ");
+                System.out.print("* ");
+                else System.out.print("  ");
             }
             System.out.println();
              
