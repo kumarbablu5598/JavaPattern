@@ -3,24 +3,23 @@ Take Integer N as input and print the following pattern.
 I/p :  N=7
 O/p :
 
-*******
- ******
-  *****
-   ****
-    ***
-     **
-      *
-
+* * * * * * * 
+  * * * * * * 
+    * * * * * 
+      * * * * 
+        * * * 
+          * * 
+            * 
 
 
 I/p :  N=5
 O/p :
 
-*****
- ****
-  ***
-   **
-    *
+* * * * * 
+  * * * * 
+    * * * 
+      * * 
+        * 
     
   // java code 
   
@@ -40,8 +39,8 @@ public class Solution
             for(int j=0;j<n;j++)
             {  
                 if(j>=i)
-                System.out.print("*");
-                else System.out.print(" ");
+                System.out.print("* ");
+                else System.out.print("  ");
             }
             System.out.println();
              
